@@ -7,7 +7,7 @@
 
 YOLOv3借鉴了残差网络（residual network）的做法，采用含有53个卷积层的Darknet-53的网络结构，使其拥有更快的速度，以下为基于416*416输入的YOLOv3网络图。
 
-![image](https://github.com/hitwh613/Perception-group/blob/master/%E5%93%A8%E5%B2%97%E6%95%B0%E6%8D%AE%E8%AE%AD%E7%BB%83%E5%92%8C%E8%AF%86%E5%88%AB/YOLOv3%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94%E5%9B%BE.jpg)
+![image](https://github.com/hitwh613/Perception-group/blob/master/%E5%93%A8%E5%B2%97%E6%95%B0%E6%8D%AE%E8%AE%AD%E7%BB%83%E5%92%8C%E8%AF%86%E5%88%AB/YOLOv3%E7%BD%91%E7%BB%9C%E5%9B%BE.jpg)
 
 我们采用Tensorflow框架，通过Python语言来实现YOLOv3。数据集准备过程中，我们拍摄机器人在不同场景下各个角度的视频并按每秒10帧截图，以PASCAL VOC 2007格式制作数据集。
 
