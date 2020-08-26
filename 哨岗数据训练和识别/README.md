@@ -1,11 +1,15 @@
 # 数据训练和识别
 
-## yoloV3介绍
+## 算法介绍
 
 我们决定采用YOLOv3算法。YOLOv3是一个既快速，又准确的实时目标检测系统。从YOLOv3的论文中我们可以看到在COCO测试集下YOLOv3与其它检测算法模型的对比，从mAP和参考时间综合来看，YOLOv3的性能是最高的。
 ![image](https://github.com/hitwh613/Perception-group/blob/master/%E5%93%A8%E5%B2%97%E6%95%B0%E6%8D%AE%E8%AE%AD%E7%BB%83%E5%92%8C%E8%AF%86%E5%88%AB/YOLOv3%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94%E5%9B%BE.jpg)
 
 YOLOv3借鉴了残差网络（residual network）的做法，采用含有53个卷积层的Darknet-53的网络结构，使其拥有更快的速度，以下为基于416*416输入的YOLOv3网络图。
+
+![image](https://github.com/hitwh613/Perception-group/blob/master/%E5%93%A8%E5%B2%97%E6%95%B0%E6%8D%AE%E8%AE%AD%E7%BB%83%E5%92%8C%E8%AF%86%E5%88%AB/YOLOv3%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94%E5%9B%BE.jpg)
+
+我们采用Tensorflow框架，通过Python语言来实现YOLOv3。数据集准备过程中，我们拍摄机器人在不同场景下各个角度的视频并按每秒10帧截图，以PASCAL VOC 2007格式制作数据集。
 
 
 ## 环境要求
@@ -46,4 +50,4 @@ python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 ## 识别示例
 
 
-![image](https://github.com/hitwh613/Perception-group/tree/master/%E5%93%A8%E5%B2%97%E6%95%B0%E6%8D%AE%E8%AE%AD%E7%BB%83%E5%92%8C%E8%AF%86%E5%88%AB)
+![image](https://github.com/hitwh613/Perception-group/blob/master/%E5%93%A8%E5%B2%97%E6%95%B0%E6%8D%AE%E8%AE%AD%E7%BB%83%E5%92%8C%E8%AF%86%E5%88%AB/%E8%AF%86%E5%88%AB%E7%A4%BA%E4%BE%8B.jpg)
