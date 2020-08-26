@@ -26,10 +26,20 @@ YOLOv3借鉴了残差网络（residual network）的做法，采用含有53个�
 
 ## VOC2007 格式数据集制作及训练
 打开Anaconda，到 labelImg 路径下，执行以下命令：
-> conda install pyqt=5
-pyrcc5 -o libs/resources.py resources.qrc
-python labelImg.py
-python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
+>conda install pyqt=5
+
+
+>pyrcc5 -o libs/resources.py resources.qrc
+
+
+>python labelImg.py
+
+
+>python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
+
+
+
+
 
         成功安装lambellmg,将训练图片放到JPEGImages下，标注文件保存到Annotations;
         每个图片和标注得到的xml文件，JPEGImages文件夹里面的一个训练图片，对应Annotations里面的一个同名XML文件，一一对应，命名一致;
