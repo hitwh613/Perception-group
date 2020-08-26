@@ -36,3 +36,8 @@ python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
 识别视频命令：
 >python yolo_video.py [video_path]
+
+## 识别示例
+
+
+![image](https://github.com/hitwh613/Perception-group/blob/master/%E5%93%A8%E5%B2%97%E6%95%B0%E6%8D%AE%E8%AE%AD%E7%BB%83%E5%92%8C%E8%AF%86%E5%88%AB/%E8%AF%86%E5%88%AB%E7%A4%BA%E4%BE%8B.jpg)
