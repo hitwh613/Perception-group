@@ -1,0 +1,18 @@
+﻿  toushi.cpp
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(154,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(181,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(191,18): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(192,22): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(229,1): warning C4326: “main”的返回类型应为“int”而非“void”
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(235,18): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(243,45): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(243,45): warning C4244:         with
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(243,45): warning C4244:         [
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(243,45): warning C4244:             _Tp=int
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(243,45): warning C4244:         ]
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(244,35): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(244,35): warning C4244:         with
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(244,35): warning C4244:         [
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(244,35): warning C4244:             _Tp=int
+C:\Users\evra\source\repos\toushi\toushi\toushi.cpp(244,35): warning C4244:         ]
+  toushi.vcxproj -> C:\Users\evra\source\repos\toushi\x64\Debug\toushi.exe
