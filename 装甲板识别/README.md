@@ -24,3 +24,6 @@
 ## 5.改进</br>
 1.加入决策，使自动瞄准智能化。</br>
 2.采用低曝光和Gamma矫正来提高摄像头识别准确率。</br>
+
+## 识别示例
+![image](https://github.com/hitwh613/Perception-group/blob/master/%E8%A3%85%E7%94%B2%E6%9D%BF%E8%AF%86%E5%88%AB/%E8%AF%86%E5%88%AB%E5%9B%BE%E4%BE%8B.png)
